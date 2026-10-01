@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime output and local telemetry
+approval_audit.jsonl
+*.log
+eve.json
+
+# Original, unreviewed screenshots (publication copies live in docs/images/)
+screenshots/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

@@ -184,9 +184,9 @@ The full threat model is in [SECURITY.md](SECURITY.md).
 
 Requirements: Python 3 (developed and tested on 3.14) and an OpenAI API key. Suricata is optional if you use the sample data.
 
-From the repository root:
-
 ```bash
+git clone https://github.com/CatherineIsaac/ai-soc-agent.git
+cd ai-soc-agent
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
